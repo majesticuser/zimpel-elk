@@ -1,0 +1,1 @@
+RAILS (?<log_ts>%{YEAR:log_ts_year}-%{MONTHNUM:log_ts_month}-%{MONTHDAY:log_ts_day} %{HOUR:log_ts_hour}:%{MINUTE:log_ts_minute})\s*%{LOGLEVEL:log_level} -- Started %{WORD:verb} "%{URIPATHPARAM:request}"
